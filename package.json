@@ -1,0 +1,44 @@
+{
+  "name": "assemble",
+  "version": "1.0.0",
+  "description": "A chat application build with node, mongodb, express and socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikhilKumarNK5/Assemble.git"
+  },
+  "author": "Nikhil Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikhilKumarNK5/Assemble/issues"
+  },
+  "homepage": "https://github.com/NikhilKumarNK5/Assemble#readme",
+  "dependencies": {
+    "async": "^3.2.3",
+    "aws-sdk": "^2.1116.0",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.20.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^4.6.0",
+    "cookie-parser": "^1.4.6",
+    "dependable": "^1.1.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-promise-router": "^4.1.1",
+    "express-session": "^1.17.2",
+    "express-validator": "^5.3.1",
+    "formidable": "^2.0.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.3.0",
+    "multer": "^1.4.4",
+    "multer-s3": "^2.10.0",
+    "passport": "^0.5.2",
+    "passport-facebook": "^3.0.0",
+    "passport-google-oauth": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "socket.io": "^4.4.1"
+  }
+}
